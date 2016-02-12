@@ -8,16 +8,16 @@ import (
 )
 
 const (
-	accountSid = "ACff2b52113ad171f7aa2976c8a3f55f7c"
-	authToken = "abb129ba34817882b26af8c7324508fb"
+	accountSid = "afasdffdgfsdfsfs"
+	authToken = "asdfafdafdfsdfsf"
 	urlStr =  "https://api.twilio.com/2010-04-01/Accounts/" + 
 				accountSid + "/Messages.json"
 )
 
 func main(){
 	v := url.Values{}
-	v.Set("To" , "+919789099524")
-	v.Set("From" ,"+17722176343" )
+	v.Set("To" , "123145124134")
+	v.Set("From" ,"124124144141" )
 	v.Set("Body", "Wuphf!")
 	rb := *strings.NewReader(v.Encode())
 
