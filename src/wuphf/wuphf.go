@@ -8,9 +8,9 @@ import (
 )
 
 const (
-	accountSid = "ACff2b52113ad171f7aa2976c8a3f55f7c"
-	authToken = "abb129ba34817882b26af8c7324508fb"
-	twiloPhone = "+17722176343" 
+	accountSid = "ACff2b52113ad112371f7aa2976c8a3f55f7c"
+	authToken = "abb129ba3481788132b26af8c7324508fb"
+	twiloPhone = "+177221713216343" 
 	urlStr =  "https://api.twilio.com/2010-04-01/Accounts/" + 
 				accountSid + "/Messages.json"
 )
@@ -49,6 +49,6 @@ func (wuphf wuphfMaster) sendSMS(phoneNumber , body string) bool {
 
 func main() {
 	wuf := wuphfMaster{"fb", "gp"}
-	wuf.sendSMS("+919789099524" , "WUPHF!!!")
+	wuf.sendSMS("+912312312313" , "WUPHF!!!")
 }
 
